@@ -1,0 +1,31 @@
+#------------------------------Data Structure(DSA)-------------------
+#------------------------------Complexity-------------------------------
+#---------Ther are two type of complexity 1) Time complaxity 2) Space compaxity
+
+#--------------------------------------------------------------------------------------------
+#-----Space complaxity-------------------
+
+a=10
+b=20
+
+def add():
+	print(a+b)   #this call space complixity when you write short code with unnecessary memory allocating 
+	#return a+b
+
+add()
+print()
+print()
+#------example of fibonacci series
+def fibona(num):
+	if num==0:
+		result=1
+	else:
+		result=(num*fibona(num-1) + num*fibona(num-2))
+		return result
+
+fibona(30)
+
+#---------------------------------------------
+print()
+#---------------------------------------------
+#-----Space complaxity-------------------
